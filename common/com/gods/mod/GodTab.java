@@ -1,4 +1,4 @@
-package com.gods.mod;
+package GodsMod.common.com.gods.mod;
 
 import net.minecraft.creativetab.*;
 import net.minecraft.item.ItemStack;

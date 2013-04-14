@@ -4,16 +4,16 @@ import java.util.Random;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.util.Icon;
-import net.minecraft.world.World;
 
-public class CrackedMossy extends Block{
+public class GodDirt extends Block  
+{
+	
 	
 	@SideOnly(Side.CLIENT)
     private Icon field_Side;
@@ -29,19 +29,20 @@ public class CrackedMossy extends Block{
 	    
 	    public void registerIcons(IconRegister par1IconRegister)
 	    {
-	    this.field_Side = par1IconRegister.registerIcon("CrackedMossyStone");
-	    this.field_Top = par1IconRegister.registerIcon("CrackedMossyStone");
-	    this.field_Bottom = par1IconRegister.registerIcon("CrackedMossyStone");
+	    this.field_Side = par1IconRegister.registerIcon("WhiteGrass_Bottom");
+	    this.field_Top = par1IconRegister.registerIcon("WhiteGrass_Bottom");
+	    this.field_Bottom = par1IconRegister.registerIcon("WhiteGrass_Bottom");
 	    }
-	    
-	    
-	public CrackedMossy(int par1, Material par2Material) {
-	super(par1, Material.rock);
-	setCreativeTab(GodsMod.GodsTab);
-	}
-
-
+	
+    protected GodDirt(int par1, int par2, String par2String)
+    {
+        super(par1, Material.ground);
+		setCreativeTab(GodsMod.GodsTab);
+    }
 		public int idDropped(int i, Random random, int j) {
-			return GodsMod.CrackedMossyStone.blockID;
+			return GodsMod.WhiteDirt.blockID;
+		}
+		public int quantityDropped(Random random){
+		return 1;
 		}
 	}

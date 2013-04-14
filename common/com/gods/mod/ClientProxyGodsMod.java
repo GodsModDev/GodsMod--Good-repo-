@@ -1,4 +1,4 @@
-package com.gods.mod;
+package GodsMod.common.com.gods.mod;
 
 public class ClientProxyGodsMod extends CommonProxyGodsMod {
     
