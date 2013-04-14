@@ -34,7 +34,7 @@ public class ZeusBlock extends Block{
         
         
     public ZeusBlock(int par1, Material par2Material) {
-    super(par1, Material.iron);
+    super(par1, Material.rock);
     setCreativeTab(GodsMod.GodsTab);
     }
 
