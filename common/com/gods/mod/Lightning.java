@@ -1,12 +1,10 @@
-package GodsMod.common.com.gods.mod;
+package com.gods.mod;
 
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.EnumToolMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemSword;
 import net.minecraft.util.EnumMovingObjectType;
 import net.minecraft.util.Icon;
 import net.minecraft.util.MathHelper;

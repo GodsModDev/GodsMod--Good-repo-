@@ -1,4 +1,4 @@
-package GodsMod.common.com.gods.mod;
+package com.gods.mod;
 
 public class CommonProxyGodsMod {
     

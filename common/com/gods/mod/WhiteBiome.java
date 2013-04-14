@@ -1,6 +1,5 @@
-package GodsMod.common.com.gods.mod;
+package com.gods.mod;
 
-import net.minecraft.block.Block;
 import net.minecraft.world.biome.BiomeGenBase;
 
 public class WhiteBiome extends BiomeGenBase {

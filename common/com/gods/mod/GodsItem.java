@@ -1,9 +1,8 @@
-package GodsMod.common.com.gods.mod;
+package com.gods.mod;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.util.Icon;
 
