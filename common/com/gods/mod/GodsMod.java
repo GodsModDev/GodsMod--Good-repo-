@@ -27,6 +27,7 @@ public class GodsMod
     
     
     public static Block CrackedMossyStone = new CrackedMossy(253, Material.rock).setUnlocalizedName("CrackedMossyStone").setHardness(10.0F).setStepSound(Block.soundWoodFootstep);
+    public static Block ZeusBlock = new ZeusBlock(257, Material.iron).setUnlocalizedName("ZeusBlock").setHardness(10.0F);
     public static Item Staff = new GodsItem(254, "Staff").setUnlocalizedName("Staff").setCreativeTab(GodsTab);
 	public static Item Trident = new GodsItem(255, "Trident").setUnlocalizedName("Trident").setCreativeTab(GodsTab);
 	public static Item LightningBolt = new Lightning(256, "LightningBolt").setUnlocalizedName("LightningBolt").setCreativeTab(GodsTab);
@@ -39,11 +40,12 @@ public class GodsMod
     {
 		//Game Registry
 		GameRegistry.registerBlock(CrackedMossyStone, "CrackedMossyStone");	
-		
+		GameRegistry.registerBlock(ZeusBlock, "ZeusBlock");   
        
         
         // Language registry
 		LanguageRegistry.addName(CrackedMossyStone, "Cracked Mossy Stone");
+		LanguageRegistry.addName(ZeusBlock, "Zeus Block");
 		LanguageRegistry.addName(Staff, "Staff");
 		LanguageRegistry.addName(Trident, "Trident");
 		LanguageRegistry.addName(LightningBolt, "Lightning Bolt");
