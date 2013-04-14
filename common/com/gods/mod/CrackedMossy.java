@@ -26,9 +26,9 @@ public class CrackedMossy extends Block{
 	    
 	    public void registerIcons(IconRegister par1IconRegister)
 	    {
-	    this.field_Side = par1IconRegister.registerIcon("CrackedMossyStone");
-	    this.field_Top = par1IconRegister.registerIcon("CrackedMossyStone");
-	    this.field_Bottom = par1IconRegister.registerIcon("CrackedMossyStone");
+	    this.field_Side = par1IconRegister.registerIcon("GodsMod:CrackedMossyStone");
+	    this.field_Top = par1IconRegister.registerIcon("GodsMod:CrackedMossyStone");
+	    this.field_Bottom = par1IconRegister.registerIcon("GodsMod:MossyStone");
 	    }
 	    
 	    

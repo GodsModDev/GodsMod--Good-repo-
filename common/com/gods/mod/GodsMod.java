@@ -30,9 +30,9 @@ public class GodsMod
     public static Block ZeusBlock = new ZeusBlock(1003, Material.rock).setUnlocalizedName("ZeusBlock").setHardness(10.0F);
     
    
-    public static Item Staff = new GodsItem(1004, "Staff").setUnlocalizedName("Staff").setCreativeTab(GodsTab);
-	public static Item Trident = new GodsItem(1005, "Trident").setUnlocalizedName("Trident").setCreativeTab(GodsTab);
-	public static Item LightningBolt = new Lightning(1006, "LightningBolt").setUnlocalizedName("LightningBolt").setCreativeTab(GodsTab);
+    public static Item Staff = new GodsItem(1004, "GodsMod:Staff").setUnlocalizedName("Staff").setCreativeTab(GodsTab);
+	public static Item Trident = new GodsItem(1005, "GodsMod:Trident").setUnlocalizedName("Trident").setCreativeTab(GodsTab);
+	public static Item LightningBolt = new Lightning(1006, "GodsMod:LightningBolt").setUnlocalizedName("LightningBolt").setCreativeTab(GodsTab);
 	
 	
 	

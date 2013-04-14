@@ -27,9 +27,9 @@ public class GodDirt extends Block
 	    
 	    public void registerIcons(IconRegister par1IconRegister)
 	    {
-	    this.field_Side = par1IconRegister.registerIcon("WhiteGrass_Bottom");
-	    this.field_Top = par1IconRegister.registerIcon("WhiteGrass_Bottom");
-	    this.field_Bottom = par1IconRegister.registerIcon("WhiteGrass_Bottom");
+	    this.field_Side = par1IconRegister.registerIcon("GodsMod:WhiteGrass_Bottom");
+	    this.field_Top = par1IconRegister.registerIcon("GodsMod:WhiteGrass_Bottom");
+	    this.field_Bottom = par1IconRegister.registerIcon("GodsMod:WhiteGrass_Bottom");
 	    }
 	
     protected GodDirt(int par1, int par2, String par2String)

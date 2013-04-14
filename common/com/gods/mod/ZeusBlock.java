@@ -27,9 +27,9 @@ public class ZeusBlock extends Block{
         
         public void registerIcons(IconRegister par1IconRegister)
         {
-        this.field_Side = par1IconRegister.registerIcon("ZeusBlock");
-        this.field_Top = par1IconRegister.registerIcon("ZeusBlock");
-        this.field_Bottom = par1IconRegister.registerIcon("ZeusBlock");
+        this.field_Side = par1IconRegister.registerIcon("GodsMod:ZeusBlock");
+        this.field_Top = par1IconRegister.registerIcon("GodsMod:ZeusBlock");
+        this.field_Bottom = par1IconRegister.registerIcon("GodsMod:ZeusBlock");
         }
         
         
